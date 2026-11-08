@@ -1,6 +1,6 @@
 /* ===== EDIT THESE ===== */
 const WEDDING_DATE = "2027-01-18T15:30:00+05:30";   // ceremony start (India time)
-const MUSIC_FILE   = "assets/song.mp3";             // put your song here (see README)
+const MUSIC_FILE   = "assets/song.mp3.mpeg";             // put your song here (see README)
 const MAPS = {                                      // Google Maps links
   church: "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent("CSI St. George's Cathedral, Gopalapuram, Chennai 600086"),
   hall:   "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent("CSI Lite Auditorium, Kilpauk, Chennai 600010")
