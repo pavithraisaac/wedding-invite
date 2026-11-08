@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<!-- EDIT: page title and link-preview text -->
+<title>Isaac Francis &amp; Pavithra · Wedding Invitation</title>
+<meta property="og:title" content="Isaac Francis weds Pavithra — 18 January 2027">
+<meta property="og:image" content="assets/couple.jpg">
+<meta name="theme-color" content="#faf5ec">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+<!-- Reusable flower, used in the bouquets and dividers -->
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="fl" viewBox="-50 -50 100 100"><g fill="currentColor"><ellipse cy="-26" rx="13" ry="22"/><ellipse cy="-26" rx="13" ry="22" transform="rotate(72)"/><ellipse cy="-26" rx="13" ry="22" transform="rotate(144)"/><ellipse cy="-26" rx="13" ry="22" transform="rotate(216)"/><ellipse cy="-26" rx="13" ry="22" transform="rotate(288)"/></g><circle r="9" fill="#b08d4f"/></symbol>
+<symbol id="lf" viewBox="0 0 40 100"><path d="M20 0C40 30 40 70 20 100 0 70 0 30 20 0Z" fill="currentColor"/></symbol>
+<symbol id="cross" viewBox="0 0 40 60"><path d="M17 0h6v18h15v6H23v36h-6V24H2v-6h15z" fill="currentColor"/></symbol>
+</defs></svg>
+
+<!-- ============ OPENING COVER ============ -->
+<section id="cover">
+  <div class="cbg"></div>
+  <div class="arch">
+    <div class="inside"></div>
+    <div class="door l"></div><div class="door r"></div>
+    <div class="seam"></div>
+    <div class="mono">I<span>&amp;</span>P</div>
+  </div>
+  <div class="bq bl"><svg class="f1"><use href="#fl"/></svg><svg class="f2"><use href="#fl"/></svg><svg class="f3"><use href="#fl"/></svg><svg class="l1"><use href="#lf"/></svg><svg class="l2"><use href="#lf"/></svg></div>
+  <div class="bq br"><svg class="f1"><use href="#fl"/></svg><svg class="f2"><use href="#fl"/></svg><svg class="f3"><use href="#fl"/></svg><svg class="l1"><use href="#lf"/></svg><svg class="l2"><use href="#lf"/></svg></div>
+  <p class="kicker">You are invited</p>
+  <button id="open" type="button">Tap to Open</button>
+</section>
+
+<main id="invite">
+<!-- ============ SECTION 1: MAIN INVITATION ============ -->
+<section id="hero">
+  <div class="window rv"><img src="assets/church-inside.jpg" alt="Inside the church" width="800" height="800"></div>
+  <p class="kicker rv">The Holy Matrimony of</p>
+  <!-- EDIT: names -->
+  <h1 class="rv"><span>Isaac Francis</span><em>and</em><span>Pavithra</span></h1>
+  <!-- EDIT: invitation message -->
+  <p class="msg rv">By God's grace, we are getting married, and we would love to have you with us.</p>
+  <p class="date rv">Monday · 18 January 2027</p>
+  <div class="orn rv"><svg><use href="#fl"/></svg></div>
+  <p class="scroll rv">Scroll</p>
+</section>
+
+<section id="verse" class="dark">
+  <svg class="cross rv"><use href="#cross"/></svg>
+  <!-- EDIT: Bible verse -->
+  <blockquote class="rv">“What therefore God hath joined together, let not man put asunder.”</blockquote>
+  <p class="kicker rv">Mark 10 : 9</p>
+</section>
+
+<!-- ============ SECTION 2: OUR WEDDING ============ -->
+<section id="wedding">
+  <p class="kicker rv">The order of the day</p>
+  <h2 class="rv">Our Wedding</h2>
+  <p class="intro rv">Two hearts, one promise. Come share the day we say “I do”, first in prayer, then in celebration.</p>
+  <div class="cards">
+    <!-- EDIT: ceremony details -->
+    <article class="card rv">
+      <svg class="ic"><use href="#cross"/></svg>
+      <p class="kicker">The Ceremony</p><h3>Holy Matrimony</h3><p class="sub">Where two become one</p>
+      <dl><dt>Date</dt><dd>Monday, 18 January 2027</dd><dt>Time</dt><dd>3.30 pm onwards</dd><dt>Church</dt><dd>CSI St. George's Cathedral<br>Gopalapuram, Chennai 600086</dd></dl>
+    </article>
+    <div class="orn rv"><svg><use href="#fl"/></svg></div>
+    <!-- EDIT: reception details -->
+    <article class="card rv">
+      <svg class="ic"><use href="#fl"/></svg>
+      <p class="kicker">The Celebration</p><h3>Reception</h3><p class="sub">Dinner, blessings &amp; joy</p>
+      <dl><dt>Date</dt><dd>Monday, 18 January 2027</dd><dt>Time</dt><dd>6.30 pm onwards</dd><dt>Venue</dt><dd>CSI Lite Auditorium<br>Kilpauk, Chennai 600010</dd></dl>
+    </article>
+  </div>
+  <img class="photo rv" src="assets/rings.jpg" alt="The ring ceremony" width="900" height="599" loading="lazy">
+</section>
+
+<!-- ============ SECTION 3: COUNTDOWN ============ -->
+<section id="countdown" class="dark">
+  <p class="kicker rv">Save the date</p><h2 class="rv">Counting the Days</h2>
+  <div class="cd rv"><div><b id="d">00</b><span>Days</span></div><div><b id="h">00</b><span>Hours</span></div><div><b id="m">00</b><span>Minutes</span></div><div><b id="s">00</b><span>Seconds</span></div></div>
+  <p class="sub rv" id="cdnote">Until we say “I do”</p>
+</section>
+
+<!-- ============ SECTION 4: LOCATION ============ -->
+<section id="venue">
+  <p class="kicker rv">Location</p><h2 class="rv">Finding Your Way</h2>
+  <div class="cards">
+    <article class="card rv"><p class="kicker">The Ceremony</p><h3>CSI St. George's Cathedral</h3><p class="sub">Gopalapuram, Chennai 600086</p>
+      <img class="thumb" src="assets/church.jpg" alt="St. George's Cathedral" width="480" height="640" loading="lazy">
+      <!-- EDIT: church map link is in script.js (MAPS) -->
+      <a class="btn" id="mapChurch" target="_blank" rel="noopener">Open in Maps</a></article>
+    <article class="card rv"><p class="kicker">The Celebration</p><h3>CSI Lite Auditorium</h3><p class="sub">Kilpauk, Chennai 600010</p>
+      <a class="btn" id="mapHall" target="_blank" rel="noopener">Open in Maps</a></article>
+  </div>
+</section>
+
+<section id="families">
+  <p class="kicker rv">With the blessing of our families</p><h2 class="rv">Two Families, One Home</h2>
+  <!-- EDIT: parents' names -->
+  <div class="fam rv"><p class="kicker">The Groom</p><h3>Isaac Francis</h3><p class="sub">Beloved son of</p><p>Mr. Prakash. P. N (Peter Prakash Nicholas)<br>and Dr. Elizabeth Hanna Luke</p></div>
+  <div class="fam rv"><p class="kicker">The Bride</p><h3>Pavithra Mamallan</h3><p class="sub">Beloved daughter of</p><p>Mr. V. Mamallan<br>and Mrs. M. Deeshalakshmi</p></div>
+</section>
+
+<section id="travel" class="dark">
+  <p class="kicker rv">Getting here</p><h2 class="rv">Travel Notes</h2>
+  <!-- EDIT: travel notes -->
+  <div class="tn rv"><h3>By Train</h3><p><b>Chennai Central</b> · About 3 km to the cathedral and 3 km to Lite Auditorium. Main hub for trains from Bangalore, Hyderabad, Thiruvananthapuram and Coimbatore.</p><p><b>Egmore</b> · About 5 km to both venues. Main hub for trains from Madurai, Tiruchirappalli, Tirunelveli and Nagercoil.</p></div>
+  <div class="tn rv"><h3>By Road</h3><p><b>St. George's Cathedral</b> is beside the Gemini / Anna flyover, near the US Consulate and Semmozhi Poonga.</p><p><b>Lite Auditorium</b> is very close to Kilpauk Medical College.</p></div>
+</section>
+
+<!-- ============ SECTION 5: CLOSING ============ -->
+<section id="thanks">
+  <svg class="cross rv"><use href="#cross"/></svg>
+  <img class="couple rv" src="assets/couple.jpg" alt="Isaac Francis and Pavithra" width="700" height="1052" loading="lazy">
+  <!-- EDIT: thank-you message -->
+  <p class="msg rv">Your presence and prayers are the greatest gift we could ask for. Thank you for sharing in our joy; we look forward to celebrating with you.</p>
+  <h2 class="rv sign">Isaac Francis <em>weds</em> Pavithra</h2>
+  <p class="kicker rv">With love and gratitude · 18.01.2027</p>
+  <img class="photo rv" src="assets/family.jpg" alt="With our loved ones" width="900" height="599" loading="lazy">
+</section>
+</main>
+
+<nav id="nav"><a href="#hero">Home</a><a href="#wedding">Wedding</a><a href="#countdown">Days</a><a href="#venue">Venue</a><a href="#travel">Travel</a></nav>
+<button id="music" type="button" aria-label="Play or pause music" hidden><span></span><span></span><span></span></button>
+<audio id="song" src="assets/song.mp3" loop preload="none"></audio>
+<script src="script.js"></script>
+</body>
+</html>
